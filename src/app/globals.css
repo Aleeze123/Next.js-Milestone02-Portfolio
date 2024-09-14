@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@keyframes border-color-change {
+  0% {
+    border-color: #ffffff; 
+  }
+  50% {
+    border-color: cyan; 
+  }
+  100% {
+    border-color: #ffffff; 
+  }
+}
+
+.animate-border-color {
+  border: 4px solid;
+  border-radius: 50%;
+  animation: border-color-change 3s infinite;
+}
+
